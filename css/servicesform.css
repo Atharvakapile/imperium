@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+}
+
+hr{
+    max-width: 1200px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Service Form Section */
+.service-form {
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+    padding: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.service-form h2 {
+    font-size: 2rem;
+    color: #003366; /* Dark blue */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.form-group span {
+    color: red;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #003366; /* Dark blue on focus */
+    outline: none;
+}
+
+.form-group textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    width: 30%;
+    padding: 14px;
+    background-color: #003366; /* Dark blue */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #002244; /* Darker blue */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1); /* Hover shadow */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .service-form {
+        padding: 10px;
+        max-width: 600px;
+    }
+
+    .service-form h2 {
+        font-size: 1.5rem;
+    }
+
+    button[type="submit"] {
+        font-size: 1rem;
+    }
+}
+
+/* footer */
+footer {
+    background-color: #121a27;
+    color: #fff;
+    padding: 25px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-info {
+    flex: 1 1 300px;
+    text-align: left;
+}
+
+.footer-info .logo img {
+    height: 85px;
+    margin-bottom: 20px;
+}
+
+.footer-info p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.footer-links {
+    flex: 1 1 200px;
+    text-align: left;
+}
+
+.footer-links h3 {
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #258fff;
+}
+
+.footer-social {
+    flex: 1 1 200px;
+    text-align: left;
+}
+
+.footer-social h3 {
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #258fff;
+}
+
+.newsletter {
+    flex: 1 1 300px;
+    text-align: left;
+}
+
+.newsletter h3 {
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}
+
+.newsletter form {
+    display: flex;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #005ec2bc;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: larger;
+}
+
+.newsletter button:hover {
+    background-color: #007bffd5;
+}
+
+.footer-legal {
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+.footer-legal a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footer-legal a:hover {
+    color:  #258fff;
+}
