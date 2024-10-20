@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const today = new Date();
 
   // Internship 2 dates
-  const internshipStart = new Date('2025-04-01');  // Internship start date
+  const internshipStart = new Date('2024-09-17');  // Internship start date
   const applicationOpen = new Date(internshipStart); 
   applicationOpen.setDate(internshipStart.getDate() - 15);  // Applications open 15 days prior to start
   const internshipEnd = new Date(internshipStart);
